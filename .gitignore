@@ -26,3 +26,20 @@ dist/
 .idea/
 .vscode/
 Thumbs.db
+
+# Secrets — NEVER commit .env files
+.env
+backend/.env
+*.env
+
+# Large binary files — compiled libraries & trained models
+*.dll
+*.so
+*.dylib
+*.pkl
+*.joblib
+
+# Coverage & logs
+*.log
+htmlcov/
+.coverage
